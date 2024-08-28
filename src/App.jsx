@@ -52,6 +52,7 @@ function App() {
   };
 
   const confirmOrder = () => {
+    dispatch(clearOrder());
     toast.success('Order Received. Please kindly wait for 12-24 hours. Thank You!');
   }
 
