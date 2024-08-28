@@ -68,7 +68,7 @@ function App() {
           {sortedStore.map((store, index) =>
           (
             <div key={index} className=" w-64 flex-grow flex-shrink basis-[40%] max-md:basis-[50%] max-md:w-full" >
-              <div className={`bg-[url('https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg')] relative bg-cover bg-center bg-no-repeat w-full h-52 rounded-lg bg-opacity-30 `}>
+              <div className='relative bg-cover bg-center bg-no-repeat w-full h-52 rounded-lg bg-opacity-30' style={{backgroundImage: `url(${store.image})`}}>
                 <div className="absolute flex justify-center bottom-0 left-2/4 -translate-x-2/4 translate-y-2/4 ">
                   {!store.clicked ? <p onClick={() => click(store.id, store.clicked, store.title, store.price)} className=" bg-white  w-full text-lg text-blue-600 py-2 px-5 rounded-full text-sm border-2 font-bold border-blue-600">Add to Cart</p> : <div className='cursor-pointer  flex gap-4 items-center bg-white w-full  text-blue-600 py-2 px-5 rounded-full'>
                     <div className="flex items-center rounded-full w-5 h-5 border-2  justify-center">

@@ -777,6 +777,22 @@ video {
   background-image: url('https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg');
 }
 
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\$\{\}\)\] {
+  background-image: url(${});
+}
+
+.bg-\[url\(\$\{store\.image\}\)\] {
+  background-image: url(${store.image});
+}
+
+.bg-\[url\(\'\$\{store\.image\}\'\)\] {
+  background-image: url('${store.image}');
+}
+
 .bg-cover {
   background-size: cover;
 }
