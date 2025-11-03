@@ -120,9 +120,9 @@ const Products = () => {
                       <span className="text-3xl font-bold text-blue-500">
                         {products[currentIndex].price}
                       </span>
-                      <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors">
+                      <Link href="/products" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors">
                         Add to Cart
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -153,7 +153,7 @@ const Products = () => {
                         <span className="text-3xl font-bold text-gray-300">
                           {product.price}
                         </span>
-                        <Link href="/product" className="bg-green-600 hover:bg-green-700 text-white px-4 py-1.5 rounded-lg transition-colors">
+                        <Link href="/products" className="bg-green-600 hover:bg-green-700 text-white px-4 py-1.5 rounded-lg transition-colors">
                           Add to Cart
                         </Link>
                       </div>

@@ -1,5 +1,6 @@
 const CTA = () => {
   return (
+    
     <section id="cta" className="min-h-screen flex items-center justify-center px-4 py-12 max-md:py-6">
       <div className="max-w-4xl mx-auto">
         <div className="bg-blue-950 rounded-2xl p-12 border-2 border-blue-700 relative overflow-hidden">
