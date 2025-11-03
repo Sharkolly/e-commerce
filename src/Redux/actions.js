@@ -3,18 +3,6 @@ import {
 } from "@reduxjs/toolkit";
 import stores from '../Json/apiStore.json';
 
-
-// // let stores;
-// const fetchStoreWithItems = async () => {
-//     try {
-//         const data = await fetch('https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg');
-//         const response = await data.json();
-//         // stores = response;
-//     } catch (err) {
-//         console.log(err);
-//     }
-// }
-
 const updatedStore = stores.map((store) => ({
     ...store,
     clicked: false,
