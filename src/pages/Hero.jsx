@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen max-md:h-auto flex items-center justify-center pt-12 px-4 max-md:pt-8">
+    <section id="home" className="min-h-screen max-lg:h-auto flex items-center justify-center pt-12 px-4 max-xl:pt-8">
       <div className="max-w-7xl mx-auto text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
           Welcome to ShopHub

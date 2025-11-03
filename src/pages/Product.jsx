@@ -82,7 +82,7 @@ const Products = () => {
   };
 
   return (
-    <section id="products" className="min-h-screen flex items-center justify-center px-4 py-12 max-md:py-6">
+    <section id="products" className="min-h-screen flex items-center justify-center px-4 py-12 max-xl:py-6">
       <div className="max-w-7xl mx-auto w-full">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-blue-500 mb-4">
